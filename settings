@@ -1,0 +1,132 @@
+{
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    // editor
+    "editor.formatOnSave": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false,
+    },
+    "editor.stablePeek": true,
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    // explorer
+    "explorer.confirmDragAndDrop": false,
+    // files
+    "files.autoSave": "afterDelay",
+    // Window
+    "window.restoreWindows": "none",
+    // terminal
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.fontFamily": "Delugia Nerd Font",
+    "terminal.integrated.fontSize": 13,
+    // notebook
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    // git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // Python
+    "python.showStartPage": false,
+    "python.condaPath": "C:\\Users\\lenovo\\Anaconda3\\python.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\lenovo\\Anaconda3\\envs\\tugasakhir.env\\python.exe",
+    "python.formatting.provider": "autopep8",
+    "python.pythonPath": "C:\\Users\\lenovo\\Anaconda3\\envs\\tugasakhir.env\\python.exe",
+    "python.venvPath": "C:\\Users\\lenovo\\Anaconda3\\envs\\",
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    // Jupyter
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "jupyter.logging.level": "debug",
+    "jupyter.askForKernelRestart": false,
+    // Code Runner
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    // Liveshare
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.allowGuestTaskControl": true,
+    // Kite
+    "kite.showWelcomeNotificationOnStartup": false,
+    // CPP
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "C_Cpp.updateChannel": "Insiders",
+    // liveserver
+    "liveServer.settings.donotShowInfoMsg": true,
+    // VSCord
+    "VSCord.appName": "Visual Studio Code",
+    "VSCord.checkIdle": false,
+    "go.lintOnSave": "package",
+    "go.formatTool": "goimports",
+    "go.testFlags": [
+        "-v",
+        "-count=1"
+    ],
+    "go.autocompleteUnimportedPackages": true,
+    "go.testEnvVars": {
+        // "GOCACHE": "off"
+    },
+    "redhat.telemetry.enabled": true,
+    "openapi.securityAuditToken": "CiAO4UVRHZT8zFbCe6mlpbe+iY0ZAkHj7NSGZ5a8z0nz4hIYLaQuxx8nekpRslsvTF/cqeUUhfDMSzxVGnOrz0kdJlFAhm12SNpLwrfTYGVHkAewgRmzVZVXJl4MPG1Nrs0v4T4JdRr3oEnUsq8VZu5mdPtlMCjayGbBRYoLf4tDp9HQYCeEaItSZsQjlTO7woSHJjyWXrCyhzjEbPuU2YxBJ61tI6v+VXApQAXTvi2h",
+    "tabnine.experimentalAutoImports": true,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    // vim
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "k",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-a>": false,
+        "<C-b>":false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    // vim mode viwy viwcmd+d p issue hack
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "commands": [
+                "editor.action.clipboardPasteAction"
+            ]
+        }
+    ],
+    "editor.tabCompletion": "on",
+    "python.languageServer": "Pylance",
+    "settingsSync.ignoredExtensions": [
+        "ms-vscode-remote.remote-wsl"
+    ],
+}
